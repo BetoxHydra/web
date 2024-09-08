@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/507028274404530674/82BE8625876CB5F617B3FDAE0C59956D99FFA9E8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-attachment: fixed; /* El fondo se queda fijo mientras el contenido se desplaza */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+.textouno{
+
+    color: aliceblue;
+font-size: 300%;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+.boton{
+    background-color: aliceblue;
+    border-radius: 1cm;
+}
+.boton-redondeado {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    /*esto es del texto del tipo de letra xd*/
+    display: inline-block;
+    padding: 10px 20px; /* Espacio interno (padding) */
+    background-color: #ffffffd3; /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center; /* Alinear texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    width: 200px; /* Ancho fijo del botón */
+}
+
+/* Efecto hover (cuando el cursor pasa sobre el botón) */
+.boton-redondeado:hover {
+    background-color: #ffffff88 /* Color de fondo cuando se pasa el mouse */
+}
+
+.navbar {
+    background-color: #000; /* Color de fondo negro */
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la barra de navegación esté encima de otros contenidos */
+}
+
+.logo{
+    width: 2.5cm;
+    margin-left: 0.10cm;
+
+}
+
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    color: aliceblue;
+font-size: 200%;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+   
+  
+}
+
+.navbar-link:hover {
+    color: #ccc; /* Color del texto al pasar el cursor */
+}
+
+.content {
+    margin-top: 60px; /* Espacio para no tapar el contenido con la barra de navegación fija */
+}
